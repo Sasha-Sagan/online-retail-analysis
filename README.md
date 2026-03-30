@@ -24,7 +24,7 @@
 - Customer segmentation 
 - Інтерактивні фільтри за країнами та часом  
 
-Tableau Public: [Переглянути дашборд](https://public.tableau.com/app/profile/alex.sagan/viz/online_retail_dashboard_17748895726250/Dashboard1?publish=yes)
+Tableau Public: [Дашборд](https://public.tableau.com/app/profile/alex.sagan/viz/online_retail_dashboard_17748895726250/Dashboard1?publish=yes)
 
 ## Інструменти:
 
