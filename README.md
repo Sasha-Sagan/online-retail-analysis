@@ -1,33 +1,29 @@
 # Online Retail Data Analysis
 
-Це pet-проект з аналізу датасету Online Retail.  
-Метою проекту було потренувати роботу з SQL, Python та pandas, а також створити інтерактивний дашборд для візуалізації результатів.
+## Goal
+Analyze transactional data to identify key revenue drivers, high-value customers, and growth opportunities across markets.
 
-## У проекті виконано:
+## Key Insights
+- Identified countries (UK, Germany, France) where the Pareto principle holds, with ~20% of customers generating the majority of revenue, suggesting focus on retention of high-value customers
+- UK generates the largest share of revenue, while Germany and France show strong growth potential, indicating opportunities for market expansion
+- Identified Q4 as the most profitable period, suggesting increased marketing and inventory focus during peak season
 
-- завантаження та підготовку даних  
-- створення SQL бази (SQLite)  
-- аналіз доходу по країнах  
-- аналіз клієнтів та їхнього внеску в дохід  
-- перевірка правила Парето 80/20  
-- сегментація клієнтів через RFM метрики  
-- часовий аналіз активності клієнтів  
+## Business Impact (Simulation)
+- Highlighted high-value customer segments for targeted marketing and retention strategies
+- Identified growth opportunities in underperforming markets
+- Provided insights to support data-driven decision making
 
-Частина обчислень реалізована як через pandas, так і через SQL, щоб продемонструвати роботу з обома інструментами.
+## What I Did
+- Cleaned and transformed raw transactional data using pandas
+- Designed and built SQL database (SQLite) for efficient data querying
+- Performed revenue and customer analysis using SQL and Python
+- Applied RFM segmentation to identify high-value customers
+- Conducted time-based analysis of customer activity and revenue trends
 
 ## Dashboard
+Interactive Tableau dashboard:[Dashboard](https://public.tableau.com/app/profile/alex.sagan/viz/online_retail_dashboard_17748895726250/Dashboard1?publish=yes)
 
-Було створено інтерактивний дашборд у Tableau для візуалізації результатів аналізу:
-
-- Revenue trend over time  
-- Revenue by country 
-- Customer segmentation 
-- Інтерактивні фільтри за країнами та часом  
-
-Tableau Public: [Дашборд](https://public.tableau.com/app/profile/alex.sagan/viz/online_retail_dashboard_17748895726250/Dashboard1?publish=yes)
-
-## Інструменти:
-
+## Tools
 - Python  
 - pandas  
 - SQLite  
@@ -35,10 +31,14 @@ Tableau Public: [Дашборд](https://public.tableau.com/app/profile/alex.sag
 - Plotly  
 - Tableau  
 
-## Дані:
-
+## Data:
 UCI Online Retail Dataset
 
-## Файл ноутбука:
+## Project Structure
+- data/ – raw dataset
+- notebook/ – analysis
+- dashboard/ – Tableau visualization
+
+## Notebook:
 
 `online_retail_analysis.ipynb`
