@@ -8,7 +8,7 @@ Analyze transactional data to identify key revenue drivers, high-value customers
 - UK generates the largest share of revenue, while Germany and France show strong growth potential, indicating opportunities for market expansion
 - Identified Q4 as the most profitable period, suggesting increased marketing and inventory focus during peak season
 
-## Business Impact (Simulation)
+## Business Impact
 - Highlighted high-value customer segments for targeted marketing and retention strategies
 - Identified growth opportunities in underperforming markets
 - Provided insights to support data-driven decision making
